@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  { src: "/images/church.jpg", caption: "Welcome to St. Francis of Assisi Church" },
-  { src: "/images/altar.jpg", caption: "Serve with Love and Faith" },
-  { src: "/images/feast.jpg", caption: "Feast of St. Francis - October 4th" },
+  //{ src: "/images/church.jpg", caption: "Welcome to St. Francis of Assisi Church" },
+  { src: "/images/StFrancisChurch.jpg", caption: "St. Francis of Assisi Church" },
+  //{ src: "/images/feast.jpg", caption: "Feast of St. Francis - October 4th" },
 ];
 
 export default function HeroSlider() {

@@ -8,12 +8,12 @@ import {
   Link,
   useDisclosure,
   Stack,
-  Icon,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 const Links = [
   { name: "Home", path: "/" },
+  { name: "About Parish", path: "/about" },
   { name: "Mass Timings", path: "/mass-timings" },
   { name: "Sermons", path: "/sermons" },
   { name: "Events", path: "/events" },
@@ -21,7 +21,7 @@ const Links = [
 ];
 
 const NavLink = ({ path, children }) => (
-  <NextLink href={path} passHref>
+  <NextLink href={path} passHref legacyBehavior>
     <Link
       px={3}
       py={2}
@@ -38,9 +38,15 @@ export default function Header() {
 
   return (
     <Box bg="teal.600" color="white" px={4}>
-      <Flex h={16} alignItems="center" justifyContent="space-between" maxW="container.lg" mx="auto">
+      <Flex
+        h={16}
+        alignItems="center"
+        justifyContent="space-between"
+        maxW="container.lg"
+        mx="auto"
+      >
         <Box fontWeight="bold" fontSize="xl" cursor="pointer">
-          <NextLink href="/" passHref>
+          <NextLink href="/" passHref legacyBehavior>
             <Link _hover={{ textDecoration: "none", color: "gray.200" }}>
               St. Francis of Assisi Church
             </Link>

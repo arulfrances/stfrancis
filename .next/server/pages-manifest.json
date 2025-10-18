@@ -2,5 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/events": "pages/events.js",
+  "/about": "pages/about.js",
+  "/mass-timings": "pages/mass-timings.js",
+  "/sermons": "pages/sermons.js",
+  "/contact": "pages/contact.js"
 }
