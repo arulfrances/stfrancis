@@ -24,11 +24,7 @@ const massTimings = [
   {
     day: "First Saturday",
     time: "6:30 AM | 11 AM St.Francis Novena, Adoration | 6:00 PM (Holy Mass & Car Procession)",
-  },
-  {
-    day: "Sub-station Mass (Cheran Ma Nagar)",
-    time: "Alternate Sundays - 5:00 PM",
-  },
+  }
 ];
 
 export default function MassTimings() {
@@ -55,6 +51,9 @@ export default function MassTimings() {
           borderRadius="lg"
           boxShadow="lg"
           fallbackSrc="https://via.placeholder.com/800x400?text=Mass+Timings"
+          width={{ base: "100%", sm: "90%", md: "80%", lg: "70%", xl: "60%" }}
+          maxW="1200px"
+          mx="auto"
         />
       </Box>
 

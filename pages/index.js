@@ -31,7 +31,7 @@ const guides = [
     image: "/images/bishop-thomas-acquinas.jpg",
   },
   {
-    title: "MOST REVERENT PARISH PRIEST VICTOR PAULRAJ",
+    title: "PARISH PRIEST REVERENT Fr. VICTOR PAULRAJ",
     description:
       "We are being fostered in spiritual growth through our Parish Priest Rev. Fr. Victor Paulraj.",
     image: "/images/parish-priest-victor-paulraj.jpg",
@@ -45,11 +45,7 @@ const massTimings = [
   {
     day: "First Saturday",
     time: "6:30 AM | 11 AM St.Francis Novena, Adoration | 6:00 PM (Holy Mass & Car Procession)",
-  },
-  {
-    day: "Sub-station Mass (Cheran Ma Nagar)",
-    time: "Alternate Sundays - 5:00 PM",
-  },
+  }
 ];
 
 export default function Home() {
